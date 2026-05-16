@@ -44,8 +44,7 @@ class Reader:
         self.total_messages = 0
         self.total_count_limit = 0
 
-        print("TelegramToMetatrader (version " + os.getenv('VERSION') + ") Copyright @" + os.getenv(
-            'AUTHOR_USERNAME') + " " + str(datetime.now().strftime("%Y")))
+        print("Démarrage du robot Telegram..."
 
         # Create the client and connect
         self.client = TelegramClient("me", self.api_id, self.api_hash)
