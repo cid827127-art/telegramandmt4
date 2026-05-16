@@ -47,7 +47,7 @@ class Reader:
         print("Démarrage du robot Telegram...")
 
         # Create the client and connect
-        self.client = TelegramClient("tg_session", self.api_id, self.api_hash)
+        self.client = TelegramClient("me.session", self.api_id, self.api_hash)
 
         while True:
             try:
